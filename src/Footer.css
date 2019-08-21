@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 #footer-wrapper {
     margin-top: 20vh;
     margin-bottom: 2vh;
+    font-family: 'Open Sans', sans-serif;
 }

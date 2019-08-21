@@ -1,6 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
 .App {
     text-align: center;
     align-items: center;
     align-content: center;
     justify-content: center;
+}
+
+.App h1 {
+    font-family: 'Merriweather', serif;
 }

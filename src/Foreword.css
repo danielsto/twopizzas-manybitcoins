@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 blockquote {
     font-style: italic;
 }
@@ -7,4 +9,5 @@ blockquote {
     display: inline-grid;
     text-align: left;
     margin-top: 2vh;
+    font-family: 'Open Sans', sans-serif;
 }
