@@ -1,8 +1,33 @@
+body {
+    background-color: #fff1e5;
+}
+
+h3 {
+    color: #990f3d;
+}
+
 #dashboard-wrapper {
     width: 70vw;
     outline: magenta solid 1px;
     align-self: center;
     text-align: center;
-    display: inline-block;
-    margin-top: 10vh;
+    display: inline-grid;
+    margin-top: 5vh;
+    grid-template-columns: 33% 33% auto;
+}
+
+.dashboard-element {
+    margin: 1em;
+    padding: 1em;
+    outline: black solid 1px;
+}
+
+.money {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.last-update {
+    margin-top: -3vh;
+    font-size: 0.9em;
 }

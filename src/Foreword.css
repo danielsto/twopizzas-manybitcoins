@@ -1,0 +1,10 @@
+blockquote {
+    font-style: italic;
+}
+
+#foreword-wrapper {
+    width: 55vw;
+    display: inline-grid;
+    text-align: left;
+    margin-top: 2vh;
+}
