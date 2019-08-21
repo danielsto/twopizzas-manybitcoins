@@ -1,0 +1,8 @@
+#dashboard-wrapper {
+    width: 70vw;
+    outline: magenta solid 1px;
+    align-self: center;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10vh;
+}
