@@ -1,21 +1,19 @@
-import React, { Component } from 'react';
-import './App.css';
-import Dashboard from './Dashboard';
-import Foreword from './Foreword';
-import Footer from './Footer';
+import React, { Component } from "react";
+import "./App.css";
+import Foreword from "./Foreword";
+import Footer from "./Footer";
+import Dashtrap from "./Dashtrap";
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        {/*<div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>*/}
-        <h1>2 Pizzas 2 Many Bitcoins</h1>
+        <h1>2 PIZZAS 2 MANY BITCOINS</h1>
         <Foreword />
-        <Dashboard />
+        <Dashtrap />
         <Footer />
+        
       </div>
     );
   }

@@ -23,7 +23,8 @@ h3 {
 .dashboard-element {
     margin: 1em;
     padding: 1em;
-    outline: black solid 1px;
+    border: black solid 1px;
+    border-radius: 3%;
 }
 
 #fun-facts {

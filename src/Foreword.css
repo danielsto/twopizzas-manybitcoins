@@ -8,6 +8,6 @@ blockquote {
     width: 55vw;
     display: inline-grid;
     text-align: left;
-    margin-top: 2vh;
+    margin: 5vh auto 5vh auto;
     font-family: 'Open Sans', sans-serif;
 }

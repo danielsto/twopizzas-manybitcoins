@@ -22,7 +22,7 @@ class Foreword extends Component {
                     </footer>
                 </blockquote>
                 <p>This fun pet project is just a way of showing the change in value Bitcoin has experienced over the 
-                    last {d.getFullYear()-2010} years while also helping me practice with React.</p>
+                    last {d.getFullYear()-2010} years while also helping me practice with React and REST APIs.</p>
             </div>
         );
     }

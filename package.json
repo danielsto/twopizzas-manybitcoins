@@ -7,9 +7,16 @@
     "node": "9.5.0"
   },
   "dependencies": {
+    "@ibm/plex": "^4.0.2",
+    "bootstrap": "^4.5.0",
     "react": "^16.9.0",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.9.0",
-    "react-scripts": "0.9.x"
+    "react-scripts": "0.9.x",
+    "react-social-icons": "^4.1.0",
+    "typeface-ibm-plex-sans": "0.0.75",
+    "typeface-ibm-plex-serif": "0.0.75",
+    "typeface-playfair-display": "^1.1.4"
   },
   "devDependencies": {},
   "scripts": {
