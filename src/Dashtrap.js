@@ -89,7 +89,7 @@ class Dashtrap extends Component {
                     Math.floor((this.state.currentPrice * 10000) / 25)
                   ).toLocaleString()}
                 </b>{" "}
-                pizzas instead of just 2
+                pizzas instead of just 2. That's {Math.round(((this.state.currentPrice * 10000) / 25)/2*100)}% more pizza.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
