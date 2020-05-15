@@ -49,9 +49,10 @@ class Dashtrap extends Component {
 
   render() {
     // console.log(this.dollarToCurrency['EUR']);
+
     return (
       <div className="dashwrapper">
-        <CardDeck>
+        <CardDeck style={{marginBottom: "5vh"}}>
           <Card>
             <Card.Body>
               <Card.Title>BITCOIN then</Card.Title>
@@ -89,7 +90,11 @@ class Dashtrap extends Component {
                     Math.floor((this.state.currentPrice * 10000) / 25)
                   ).toLocaleString()}
                 </b>{" "}
-                pizzas instead of just 2. That's {Math.round(((this.state.currentPrice * 10000) / 25)/2*100)}% more pizza.
+                pizzas instead of just 2. That's{" "}
+                {Math.round(
+                  ((this.state.currentPrice * 10000) / 25 / 2) * 100
+                ).toLocaleString()}
+                % more pizza.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
@@ -121,6 +126,10 @@ class Dashtrap extends Component {
             )
           ).toLocaleString()}{" "}
           years
+        </p>
+        <p className="fun-fact">
+          <Badge variant="info">Fun fact</Badge> This year marks the 10 year
+          anniversary of the Bitcoin Pizza Day
         </p>
       </div>
     );

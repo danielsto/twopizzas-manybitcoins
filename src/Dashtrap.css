@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .money {
   font-size: 2em;
   color: #17252a;
@@ -6,9 +8,11 @@
 .dashwrapper {
   margin: auto 3vh 3vh 3vh;
   color: #17252a;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 .fun-fact {
-  margin: 5vh;
+  margin: 1em;
   color: #17252a;
 }

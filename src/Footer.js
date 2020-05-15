@@ -12,9 +12,9 @@ class Footer extends Component {
           and check out <a href="https://danielsarmiento.dev/">my blog</a>.
         </p>
         <div className="social-icons">
-          <SocialIcon url="http://twitter.com/daniel_swdev" style={{ margin: "1em" }}/>
-          <SocialIcon url="https://www.linkedin.com/in/danielsarmientorocha/" style={{ margin: "1em" }}/>
-          <SocialIcon url="https://github.com/danielsto" style={{ margin: "1em" }}/>
+          <SocialIcon url="http://twitter.com/daniel_swdev" style={{ margin: "0.5em" }}/>
+          <SocialIcon url="https://www.linkedin.com/in/danielsarmientorocha/" style={{ margin: "0.5em" }}/>
+          <SocialIcon url="https://github.com/danielsto" style={{ margin: "0.5em" }}/>
         </div>
       </div>
     );
