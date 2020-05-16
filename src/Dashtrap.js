@@ -47,12 +47,24 @@ class Dashtrap extends Component {
     this.refresh = setInterval(() => this.getData(), 60000);
   }
 
+  anniversary() {
+    let thisYear = new Date().getFullYear();
+    if (thisYear % 5 === 0) {
+      return (
+        <p className="fun-fact">
+          <Badge variant="info">Fun fact</Badge> This year marks the{" "}
+          {thisYear - 2010} year anniversary of the Bitcoin Pizza Day
+        </p>
+      );
+    }
+  }
+
   render() {
     // console.log(this.dollarToCurrency['EUR']);
 
     return (
       <div className="dashwrapper">
-        <CardDeck style={{marginBottom: "5vh"}}>
+        <CardDeck style={{ marginBottom: "5vh" }}>
           <Card>
             <Card.Body>
               <Card.Title>BITCOIN then</Card.Title>
@@ -127,10 +139,7 @@ class Dashtrap extends Component {
           ).toLocaleString()}{" "}
           years
         </p>
-        <p className="fun-fact">
-          <Badge variant="info">Fun fact</Badge> This year marks the 10 year
-          anniversary of the Bitcoin Pizza Day
-        </p>
+        {this.anniversary()}
       </div>
     );
   }
