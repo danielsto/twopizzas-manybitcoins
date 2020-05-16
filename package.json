@@ -1,6 +1,11 @@
 {
   "name": "twopizzas-manybitcoins",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielsto/twopizzas-manybitcoins.git"
+  },
+  "author": "Daniel Sarmiento",
   "private": true,
   "engines": {
     "npm": "3.5.2",
