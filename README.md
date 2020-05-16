@@ -1,1 +1,6 @@
 
+## Resources
+- API: https://www.coindesk.com/coindesk-api
+- Favicon: https://favicon.io/emoji-favicons/pizza/
+- React Bootstrap: https://react-bootstrap.github.io/
+- Hosting:
