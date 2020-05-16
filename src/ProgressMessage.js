@@ -27,7 +27,7 @@ class ProgressMessage extends Component {
           );
       } else if (progress >= 80) {
           return (
-              <p>It's almost there! Only a few days until Bitcoin Pizza Day!!!</p>
+              <p>It's almost there! Only a few days until next Bitcoin Pizza Day!!!</p>
           );
       }
   }

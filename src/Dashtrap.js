@@ -67,7 +67,7 @@ class Dashtrap extends Component {
         <CardDeck style={{ marginBottom: "5vh" }}>
           <Card>
             <Card.Body>
-              <Card.Title>BITCOIN then</Card.Title>
+              <Card.Title>BITCOIN price then</Card.Title>
               <Card.Text>
                 <p className="money">$ {Number(0.0025).toLocaleString()}</p>
               </Card.Text>
@@ -78,7 +78,7 @@ class Dashtrap extends Component {
           </Card>
           <Card>
             <Card.Body>
-              <Card.Title>BITCOIN now</Card.Title>
+              <Card.Title>BITCOIN price now</Card.Title>
               <Card.Text>
                 <p className="money">
                   {" "}
