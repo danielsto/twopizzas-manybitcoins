@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 import Foreword from "./Foreword";
 import Footer from "./Footer";
-import Dashtrap from "./Dashtrap";
+import Dashboard from "./Dashboard";
 import ProgressMessage from './ProgressMessage'
 
 class App extends Component {
@@ -12,7 +12,7 @@ class App extends Component {
       <div className="App">
         <h1>2 PIZZAS 2 MANY BITCOINS</h1>
         <Foreword />
-        <Dashtrap />
+        <Dashboard />
         <ProgressMessage />
         <Footer />
       </div>

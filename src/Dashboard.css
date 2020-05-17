@@ -1,43 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-
-body {
-    background-color: #fff1e5;
-}
-
-h3 {
-    color: #990f3d;
-}
-
-#dashboard-wrapper {
-    width: 70vw;
-    outline: magenta solid 1px;
-    align-self: center;
-    text-align: center;
-    display: inline-grid;
-    margin-top: 5vh;
-    grid-template-columns: 33% 33% auto;
-    grid-template-rows: auto auto;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.dashboard-element {
-    margin: 1em;
-    padding: 1em;
-    border: black solid 1px;
-    border-radius: 3%;
-}
-
-#fun-facts {
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .money {
-    font-weight: bold;
-    font-size: 2em;
+  font-size: 2em;
+  color: #17252a;
 }
 
-.last-update {
-    margin-top: -3vh;
-    font-size: 0.9em;
+.dashwrapper {
+  margin: auto 3vh 3vh 3vh;
+  color: #17252a;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+.fun-fact {
+  margin: 1em;
+  color: #17252a;
 }
