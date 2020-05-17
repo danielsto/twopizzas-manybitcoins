@@ -4,6 +4,7 @@ import Foreword from "./Foreword";
 import Footer from "./Footer";
 import Dashboard from "./Dashboard";
 import ProgressMessage from './ProgressMessage'
+import LocalBusiness from './LocalBusiness'
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         <Foreword />
         <Dashboard />
         <ProgressMessage />
+        <LocalBusiness />
         <Footer />
       </div>
     );
