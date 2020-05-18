@@ -11,8 +11,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="title">
-          <h1>2 PIZZAS</h1>
-          <h1>2 MANY BITCOINS</h1>
+          <h1>2 PIZZAS<br/>2 MANY BITCOINS</h1>
         </div>
         <Foreword />
         <Dashboard />
