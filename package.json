@@ -22,6 +22,7 @@
     "typeface-ibm-plex-sans": "0.0.75",
     "typeface-ibm-plex-serif": "0.0.75",
     "typeface-lato": "0.0.75",
+    "typeface-lexend-deca": "^1.1.3",
     "typeface-playfair-display": "^1.1.4"
   },
   "devDependencies": {},

@@ -1,16 +1,20 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
 .App {
-  margin: 1.5em auto auto auto;
+  margin: 2.5em auto auto auto;
   max-width: 850px;
   text-align: center;
 }
 
 .App h1 {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
   color: #17252a;
+  text-align: left;
+  font-size: 5vh;
+}
+
+.title {
+  display: inline-block;
+  margin: auto 3vh 0 3vh;
 }

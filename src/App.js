@@ -3,15 +3,17 @@ import "./App.css";
 import Foreword from "./Foreword";
 import Footer from "./Footer";
 import Dashboard from "./Dashboard";
-import ProgressMessage from './ProgressMessage'
-import LocalBusiness from './LocalBusiness'
+import ProgressMessage from "./ProgressMessage";
+import LocalBusiness from "./LocalBusiness";
 
 class App extends Component {
   render() {
-
     return (
       <div className="App">
-        <h1>2 PIZZAS 2 MANY BITCOINS</h1>
+        <div className="title">
+          <h1>2 PIZZAS</h1>
+          <h1>2 MANY BITCOINS</h1>
+        </div>
         <Foreword />
         <Dashboard />
         <ProgressMessage />
