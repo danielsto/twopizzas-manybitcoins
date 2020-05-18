@@ -35,7 +35,8 @@ class Foreword extends Component {
         <p>
           This fun pet project is just a way of showing the change in value
           Bitcoin has experienced over the last {d.getFullYear() - 2010} years
-          while also helping me practice with React and REST APIs.
+          while also helping me practice with React, REST APIs, CSS Frameworks
+          and continuous integration.
         </p>
       </div>
     );
