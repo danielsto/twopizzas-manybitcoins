@@ -65,7 +65,7 @@ class Dashboard extends Component {
     return (
       <div className="dashwrapper">
         <CardDeck style={{ marginBottom: "5vh" }}>
-          <Card>
+          <Card style={{backgroundColor: "#315496"}}>
             <Card.Body>
               <Card.Title>BITCOIN price then</Card.Title>
               <Card.Text>
@@ -73,10 +73,10 @@ class Dashboard extends Component {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">May 22, 2010</small>
+              <small>May 22, 2010</small>
             </Card.Footer>
           </Card>
-          <Card>
+          <Card style={{backgroundColor: "#315496"}}>
             <Card.Body>
               <Card.Title>BITCOIN price now</Card.Title>
               <Card.Text>
@@ -87,10 +87,10 @@ class Dashboard extends Component {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">{this.state.updatedAt}</small>
+              <small>{this.state.updatedAt}</small>
             </Card.Footer>
           </Card>
-          <Card>
+          <Card style={{backgroundColor: "#315496"}}>
             <Card.Body>
               <Card.Title>
                 {Number(10000).toLocaleString()} BTC right now
@@ -110,7 +110,7 @@ class Dashboard extends Component {
               </Card.Text>
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">{this.state.updatedAt}</small>
+              <small>{this.state.updatedAt}</small>
             </Card.Footer>
           </Card>
         </CardDeck>

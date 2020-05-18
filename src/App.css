@@ -6,12 +6,18 @@
   text-align: center;
 }
 
+@media screen and (max-width: 800px) {
+  .App div h1 {
+    font-size: 8.75vw;
+  }
+}
+
 .App h1 {
   font-family: "Lexend Deca", sans-serif;
   font-weight: 600;
-  color: #17252a;
+  color: #709CCE;
   text-align: left;
-  font-size: 5vh;
+  font-size: 5em;
 }
 
 .title {

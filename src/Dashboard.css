@@ -2,17 +2,21 @@
 
 .money {
   font-size: 2em;
-  color: #17252a;
+  color: #F3F1EF;
 }
 
 .dashwrapper {
   margin: auto 3vh 3vh 3vh;
-  color: #17252a;
+  color: #F3F1EF;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
 
 .fun-fact {
   margin: 1em;
-  color: #17252a;
+  color: #143A92;
+}
+
+.text-muted {
+  color: #F3F1EF;
 }

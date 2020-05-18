@@ -8,11 +8,11 @@ class Footer extends Component {
       <div id="footer-wrapper">
         <p>
           If you enjoyed this just-for-fun project, feel free to say hi on
-          Twitter <a href="https://twitter.com/daniel_swdev">@daniel_swdev</a>{" "}
-          and check out <a href="https://danielsarmiento.dev/">my blog</a>.
+          Twitter <a style={{color: "#CDAB65"}} href="https://twitter.com/daniel_swdev">@daniel_swdev</a>{" "}
+          and check out <a style={{color: "#CDAB65"}} href="https://danielsarmiento.dev/">my blog</a>.
         </p>
         <div className="social-icons">
-          <SocialIcon url="http://twitter.com/daniel_swdev" style={{ margin: "0.5em" }}/>
+          <SocialIcon url="http://twitter.com/daniel_swdev" style={{ margin: "0.5em", fill: "#FFFFFF"}}/>
           <SocialIcon url="https://www.linkedin.com/in/danielsarmientorocha/" style={{ margin: "0.5em" }}/>
           <SocialIcon url="https://github.com/danielsto" style={{ margin: "0.5em" }}/>
         </div>

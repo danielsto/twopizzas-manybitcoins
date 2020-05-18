@@ -41,7 +41,7 @@ class ProgressMessage extends Component {
     return (
       <div className="progress-wrapper">
         {this.progress_message(progress)}
-        <ProgressBar animated now={progress} label={`${progress}%`}/>
+        <ProgressBar style={{backgroundColor: "#FFFFFF"}} animated now={progress} label={`${progress}%`} variant="info"/>
       </div>
     );
   }
