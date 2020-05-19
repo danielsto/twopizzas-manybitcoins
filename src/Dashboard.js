@@ -116,7 +116,7 @@ class Dashboard extends Component {
         </CardDeck>
         <p className="fun-fact">
           <Badge variant="info">Fun fact</Badge> If you ate{" "}
-          <select defaultValue="1" onChange={this.handleChange}>
+          <select defaultValue="1" onChange={this.handleChange} aria-label="Number of pizzas">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
