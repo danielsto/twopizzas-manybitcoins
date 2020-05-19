@@ -15,7 +15,7 @@ class Foreword extends Component {
           was on May 22 that he reported successfully trading{" "}
           {Number(10000).toLocaleString()} BTC for two pizzas, with{" "}
           <a
-            style={{ color: "#CDAB65" }}
+            style={{ color: "#856300" }}
             href="https://en.bitcoin.it/wiki/Jercos"
           >
             Jercos
@@ -25,7 +25,7 @@ class Foreword extends Component {
           <footer>
             —
             <a
-              style={{ color: "#CDAB65" }}
+              style={{ color: "#856300" }}
               href="https://en.bitcoin.it/wiki/Laszlo_Hanyecz"
             >
               Bitcoin Wiki
