@@ -8,8 +8,8 @@
   "author": "Daniel Sarmiento",
   "private": true,
   "engines": {
-    "npm": "3.5.2",
-    "node": "8.10.0"
+    "npm": "5.6.0",
+    "node": "14.0.0"
   },
   "dependencies": {
     "@ibm/plex": "^4.0.2",
@@ -17,7 +17,7 @@
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.9.0",
-    "react-scripts": "^5.0.0",
+    "react-scripts": "^3.0.1",
     "react-social-icons": "^4.1.0",
     "typeface-ibm-plex-sans": "0.0.75",
     "typeface-ibm-plex-serif": "0.0.75",
